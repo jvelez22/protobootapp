@@ -10,13 +10,13 @@ public class TestCalculadora {
     @Test
     public void testCuadradoPositivo() {
         Calculadora calc = new Calculadora();
-        assertEquals(25.0, calc.cuadrado(5.0), 0);
+        assertEquals(25.0, calc.cuadrado(4.0), 0);
     }
 
     @Test
     public void testCuadradoCero() {
         Calculadora calc = new Calculadora();
-        assertEquals(0.0, calc.cuadrado(0.0), 0);
+        assertEquals(0.0, calc.cuadrado(2.0), 0);
     }
 
     @Test
